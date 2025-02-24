@@ -17,6 +17,6 @@ function agregarAmigo(){
         //resetea el campo de texto
        document.getElementById('amigo').value = "";     
     }
-    //console.log(nombre);
+    //console.log(nombre);agregar
     console.log(`lista de amigos:o :${lista_amigos.toString()}`);
 }
