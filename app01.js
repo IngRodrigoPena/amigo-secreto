@@ -34,3 +34,45 @@ function mostrarLista(lista){
         //console.log(`${i}  ${lista[i]}`);
     }
 }
+
+function numeroAzar(lista){
+    let limite = lista.length;
+    let numAzar =  Math.floor(Math.random() * limite);
+    return numAzar;
+    /*for(let i=0 ; i<100;i++){
+        numAzar = Math.floor(Math.random() * 10)
+        console.log(`${i}  ${numAzar}`);
+    }*/    
+}
+
+
+function sortearAmigo(){
+    //verificando que la lista no este vacia
+    let numeroAmigos = lista_amigos.length;
+    console.log(`Numero de amigos : ${numeroAmigos}`);
+    if(numeroAmigos === 0){
+        alert("La lista esta VACIA")
+    }else{
+        //alert("continua")
+        let indice = numeroAzar(lista_amigos);
+        let nombreSorteado = lista_amigos[indice];
+        console.log(`indice ${indice}  nombre:${nombreSorteado}`)
+
+        //mostrar el nombre en el HTML
+        document.getElementById("resultado").textContent = `Mi Amigo Secreto es : ${nombreSorteado}`
+    }
+
+}
+
+function reiniciarJuego() {
+    // Vaciar la lista de amigos
+    lista_amigos = [];
+    // Limpiar la lista en la pantalla
+    document.getElementById("listaAmigos").innerHTML = "";
+    // Limpiar el resultado del sorteo
+    document.getElementById("resultado").textContent = "";
+    // Limpiar el campo de entrada
+    document.getElementById("amigo").value = "";
+
+    console.log("Juego reiniciado: lista vacía.");
+}
