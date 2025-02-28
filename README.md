@@ -1,4 +1,4 @@
-# AMIGO SECRETO
+# amigo-secreto
 Ejercicio/Desafio ONE amigo secreto para poner en practica 
 las bases de la  lógica de programacion en Javascript
 
@@ -24,7 +24,8 @@ puedes esoger uno al azar que sera tu  "Amigo Screto"
 :construction: Proyecto en construcción :construction:
 </h4>
 
-
+# Version
+  0.2  Febrero 2025
 
 #	Funcionalidades;
 en la parte de javascript, el programa tiene  5 funciones
