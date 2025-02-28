@@ -4,7 +4,7 @@ las bases de la  lógica de programacion en Javascript
 
 <h1 align="center"> AMIGO SECRETO </h1>
 
-![alt text](amigo_secreto.png)
+![alt text](./assets/amigo_secreto.png)
 
 Insignias
     Javacript  HTML   CSS
