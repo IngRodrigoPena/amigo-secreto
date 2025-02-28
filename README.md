@@ -1,4 +1,4 @@
-# amigo-secreto
+# AMIGO SECRETO
 Ejercicio/Desafio ONE amigo secreto para poner en practica 
 las bases de la  lógica de programacion en Javascript
 
@@ -6,7 +6,7 @@ las bases de la  lógica de programacion en Javascript
 
 ![alt text](./assets/amigo_secreto.png)
 
-Insignias
+# Insignias
     Javacript  HTML   CSS
 
     <p align="left">
@@ -14,47 +14,46 @@ Insignias
    </p>
 
 
-•	Descripción de su proyecto;
+#	Descripción de su proyecto;
 En la aplicacion/juego puedes capturar el nombre de tus amigos
 y una vez que termines de capturar a todos tus amigos
 puedes esoger uno al azar que sera tu  "Amigo Screto"
 
-•   Estado del Proyecto:  
+#   Estado del Proyecto:  
    <h4 align="center">
 :construction: Proyecto en construcción :construction:
 </h4>
 
 
 
-
-•	funcionalidades;
+#	Funcionalidades;
 en la parte de javascript, el programa tiene  5 funciones
 
-- funcion agregarAmigo()
+- Funcion agregarAmigo()
     si el nombre es valido
     -que no sea una cadena vacia
     -que el nombre no empiece con numeros
     entonces lo agrega a  la lista lista_amigos
     y lo muestra en pantalla
 
-- funcion mostrarLista(lista)
+- Funcion mostrarLista(lista)
     muestra los nombres que contiene Lista_amigos
 
-- funcion numeroAzar(lista)
+- Funcion numeroAzar(lista)
     genera un numero aleatorio entre
     0 y la longitud de lista_amigos
 
-- funcion sortearAmigo()
+-  Funcion sortearAmigo()
     verifica que la lista no este vacia 
     y que al menos tenga 3 nombres
     si cumple estas condiciones
     escoge al azar uno de los nombres de lista_amigos
 
-- function reiniciarJuego()
+- Function reiniciarJuego()
     reinicia el juego
 
 
-•	Cómo pueden usarlo los usuarios;
+#	Cómo pueden usarlo los usuarios;
 para el usaurio en la pantalla se muestra una caja de texto, 
 donde puede capurar el nombre de un amigo.
 
@@ -85,22 +84,22 @@ escoger uno al azar
 
 ![debe capturar al menos 3 nombres](./assets/error_lista_vacia.png)
 
-. Acceso al proyecto
+# Acceso al proyecto
 Se puede descargar der
 https://github.com/IngRodrigoPena/amigo-secreto
 
-•   Tecnologias Usadas
+#   Tecnologias Usadas
     Javacript  HTML   CSS Git   GitHub
 
-•	Donde los usuarios pueden encontrar ayuda sobre su proyecto;
+#	Donde los usuarios pueden encontrar ayuda sobre su proyecto;
 para dudas favor de enviar un email a rpena73gmail.com
 favor de enviar una descripcion y una captura de pantalla
 a la brevedad me pondre en contacto
 
-•	Autores del proyecto.
-Ing. Rodrigo Peña Ramírez
+#	Autores del proyecto.
+Rodrigo Peña Ramírez
 
-•	Licencia
-De chocolate   
+#	Licencia
+ Chocolate   
 
 
